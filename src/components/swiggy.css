@@ -1,0 +1,97 @@
+.foodie{
+    margin: 10px;
+}
+.items{
+    justify-content: space-between;
+    display: flex;
+    
+}
+select{
+    border-radius: 20px;
+    border:solid 1px orange;
+    width: 100px;
+    height: 35px;
+    color: orange;
+}
+select:hover{
+    background-color: orange;
+    color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.fooditems{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.tot{
+    border: solid 1px white;
+    display: flex;
+    padding-left: 50px;
+    /* padding: 50px 50px; */
+}
+.tot:hover{
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    
+}
+.tot1:hover{
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      
+  }
+.tot1{
+    border: solid 1px white;
+    display: flex;
+    padding-left: 50px;
+    /* padding: 50px 50px; */
+
+}
+.tot2{
+    border: solid 1px white;
+    display: flex;
+    padding-left: 50px;
+    /* padding: 50px 50px; */
+}
+.tot2:hover{
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    
+}
+.tot3{
+    border: solid 1px white;
+    display: flex;
+    padding-left: 50px;
+    /* padding: 50px 50px; */
+}
+.tot3:hover{
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    
+}
+
+.imgn{
+    /* border: solid red 1px; */
+    /* border-radius: 50%; */
+    /* overflow: hidden; */
+    /* border-width: 5; */
+    padding: 20px;
+}
+.details{
+    padding-left: 20px;
+}
+.f1{
+    color: rgb(6, 2, 10);
+    font-size: 20px;
+    font-weight: bolder;   
+}
+.f2{
+    color: red;
+}
+.f3{
+    color: blue;
+}
+.f4{
+    color: purple;
+}
